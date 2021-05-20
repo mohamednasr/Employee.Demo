@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.EmployeeEndpoints.EmployeeController.getEmployees">
+            <summary>
+            Get All Employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.EmployeeEndpoints.EmployeeController.getEmployee(System.Int64)">
+            <summary>
+            Get specific Employee By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.EmployeeEndpoints.EmployeeController.getEmployee(System.String)">
+            <summary>
+            Search for Employee by query string
+            </summary>
+            <param name="search"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.IdentityEndpoints.UsersController.Login(ApplicationCore.DTOs.UserDTO)">
+            <summary>
+            Login User Endpoint
+            </summary>
+            <param name="userDTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
